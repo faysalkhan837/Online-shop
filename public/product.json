@@ -1,0 +1,323 @@
+   
+[
+    {
+        "name": "Adidas NMD_R1",
+        "image": "https://example.com/images/adidas-nmd-r1.jpg",
+        "price": 140.00,
+        "product_id": "NMD-R1-002",
+        "type": "Sneaker",
+        "short_details": "The Adidas NMD_R1 blends streetwise style with modern technology for a comfortable, everyday sneaker.",
+        "brand_name": "Adidas",
+        "rating": 4.7
+    },
+    {
+        "name": "Adidas Yeezy Boost 350 V2",
+        "image": "https://example.com/images/adidas-yeezy-boost-350-v2.jpg",
+        "price": 220.00,
+        "product_id": "YB350V2-003",
+        "type": "Sneaker",
+        "short_details": "The Adidas Yeezy Boost 350 V2 features a sleek design and responsive cushioning for a unique, stylish look.",
+        "brand_name": "Adidas",
+        "rating": 4.9
+    },
+    {
+        "name": "Adidas Solar Glide 4",
+        "image": "https://example.com/images/adidas-solar-glide-4.jpg",
+        "price": 130.00,
+        "product_id": "SG4-004",
+        "type": "Running Shoe",
+        "short_details": "The Adidas Solar Glide 4 is designed for distance runners, offering support and cushioning for long runs.",
+        "brand_name": "Adidas",
+        "rating": 4.6
+    },
+    {
+        "name": "Adidas Superstar",
+        "image": "https://example.com/images/adidas-superstar.jpg",
+        "price": 85.00,
+        "product_id": "SS-005",
+        "type": "Sneaker",
+        "short_details": "The Adidas Superstar is an iconic shoe with a classic shell toe design and durable construction.",
+        "brand_name": "Adidas",
+        "rating": 4.5
+    },
+    {
+        "name": "Adidas Terrex Free Hiker",
+        "image": "https://example.com/images/adidas-terrex-free-hiker.jpg",
+        "price": 200.00,
+        "product_id": "TFH-006",
+        "type": "Hiking Shoe",
+        "short_details": "The Adidas Terrex Free Hiker provides the comfort of a running shoe with the durability of a hiking boot.",
+        "brand_name": "Adidas",
+        "rating": 4.8
+    },
+    {
+        "name": "Gucci Ace Leather Sneaker",
+        "image": "https://example.com/images/gucci-ace-leather-sneaker.jpg",
+        "price": 650.00,
+        "product_id": "ACE-001",
+        "type": "Sneaker",
+        "short_details": "The Gucci Ace Leather Sneaker features the iconic green and red Web stripe with a touch of luxury.",
+        "brand_name": "Gucci",
+        "rating": 4.9
+    },
+    {
+        "name": "Gucci Rhyton Sneaker",
+        "image": "https://example.com/images/gucci-rhyton-sneaker.jpg",
+        "price": 890.00,
+        "product_id": "RHYN-002",
+        "type": "Sneaker",
+        "short_details": "The Gucci Rhyton Sneaker showcases a chunky design and vintage logo for a retro-inspired look.",
+        "brand_name": "Gucci",
+        "rating": 4.8
+    },
+    {
+        "name": "Gucci Princetown Leather Slipper",
+        "image": "https://example.com/images/gucci-princetown-leather-slipper.jpg",
+        "price": 790.00,
+        "product_id": "PRNC-003",
+        "type": "Slipper",
+        "short_details": "The Gucci Princetown Leather Slipper features a classic design with a gold-toned horsebit detail.",
+        "brand_name": "Gucci",
+        "rating": 4.7
+    },
+    {
+        "name": "Gucci GG Marmont Matelassé Bag",
+        "image": "https://example.com/images/gucci-gg-marmont-bag.jpg",
+        "price": 1980.00,
+        "product_id": "GGBAG-004",
+        "type": "Bag",
+        "short_details": "The Gucci GG Marmont Matelassé Bag is crafted from soft leather and features a chevron design and GG hardware.",
+        "brand_name": "Gucci",
+        "rating": 4.9
+    },
+    {
+        "name": "Gucci Ophidia Small Shoulder Bag",
+        "image": "https://example.com/images/gucci-ophidia-shoulder-bag.jpg",
+        "price": 1390.00,
+        "product_id": "OPHID-005",
+        "type": "Bag",
+        "short_details": "The Gucci Ophidia Small Shoulder Bag blends classic Gucci elements with contemporary flair.",
+        "brand_name": "Gucci",
+        "rating": 4.8
+    },
+    {
+        "name": "Gucci GG Supreme Belt",
+        "image": "https://example.com/images/gucci-gg-supreme-belt.jpg",
+        "price": 460.00,
+        "product_id": "GGBLT-006",
+        "type": "Belt",
+        "short_details": "The Gucci GG Supreme Belt is a versatile accessory featuring the GG Supreme canvas and leather trim.",
+        "brand_name": "Gucci",
+        "rating": 4.7
+    },
+    {
+        "name": "H&M Ribbed Turtleneck Sweater",
+        "image": "https://example.com/images/hm-ribbed-turtleneck-sweater.jpg",
+        "price": 24.99,
+        "product_id": "HMRT-001",
+        "type": "Sweater",
+        "short_details": "The H&M Ribbed Turtleneck Sweater is a soft, cozy piece perfect for layering in cold weather.",
+        "brand_name": "H&M",
+        "rating": 4.6
+    },
+    {
+        "name": "H&M Skinny High Jeans",
+        "image": "https://example.com/images/hm-skinny-high-jeans.jpg",
+        "price": 29.99,
+        "product_id": "HMSHJ-002",
+        "type": "Jeans",
+        "short_details": "The H&M Skinny High Jeans offer a flattering fit with a high waist and classic denim style.",
+        "brand_name": "H&M",
+        "rating": 4.7
+    },
+    {
+        "name": "H&M Floral Print Dress",
+        "image": "https://example.com/images/hm-floral-print-dress.jpg",
+        "price": 39.99,
+        "product_id": "HMFPD-003",
+        "type": "Dress",
+        "short_details": "The H&M Floral Print Dress features a vibrant floral pattern with a flowing, feminine silhouette.",
+        "brand_name": "H&M",
+        "rating": 4.8
+    },
+    {
+        "name": "H&M Hooded Puffer Jacket",
+        "image": "https://example.com/images/hm-hooded-puffer-jacket.jpg",
+        "price": 59.99,
+        "product_id": "HMHPJ-004",
+        "type": "Jacket",
+        "short_details": "The H&M Hooded Puffer Jacket offers warmth and style with its quilted design and hooded detail.",
+        "brand_name": "H&M",
+        "rating": 4.9
+    },
+    {
+        "name": "H&M Cotton Chinos",
+        "image": "https://example.com/images/hm-cotton-chinos.jpg",
+        "price": 34.99,
+        "product_id": "HMCC-005",
+        "type": "Trousers",
+        "short_details": "The H&M Cotton Chinos are a versatile wardrobe staple with a comfortable fit and classic look.",
+        "brand_name": "H&M",
+        "rating": 4.5
+    },
+    {
+        "name": "H&M Wool-Blend Coat",
+        "image": "https://example.com/images/hm-wool-blend-coat.jpg",
+        "price": 99.99,
+        "product_id": "HMWBC-006",
+        "type": "Coat",
+        "short_details": "The H&M Wool-Blend Coat features a stylish design with a warm wool blend for winter wear.",
+        "brand_name": "H&M",
+        "rating": 4.8
+    },
+    {
+        "name": "Levi's 501 Original Fit Jeans",
+        "image": "https://example.com/images/levis-501-original-fit-jeans.jpg",
+        "price": 59.99,
+        "product_id": "LV501-001",
+        "type": "Jeans",
+        "short_details": "The Levi's 501 Original Fit Jeans feature the iconic straight fit with a button fly for classic style.",
+        "brand_name": "Levi's",
+        "rating": 4.8
+    },
+    {
+        "name": "Levi's Trucker Jacket",
+        "image": "https://example.com/images/levis-trucker-jacket.jpg",
+        "price": 89.99,
+        "product_id": "LVTJ-002",
+        "type": "Jacket",
+        "short_details": "The Levi's Trucker Jacket is a timeless denim jacket with a versatile design and durable construction.",
+        "brand_name": "Levi's",
+        "rating": 4.7
+    },
+    {
+        "name": "Levi's 721 High Rise Skinny Jeans",
+        "image": "https://example.com/images/levis-721-high-rise-skinny-jeans.jpg",
+        "price": 69.99,
+        "product_id": "LV721-003",
+        "type": "Jeans",
+        "short_details": "The Levi's 721 High Rise Skinny Jeans offer a flattering fit with a high-rise waist and skinny leg.",
+        "brand_name": "Levi's",
+        "rating": 4.9
+    },
+    {
+        "name": "Levi's Graphic Tee",
+        "image": "https://example.com/images/levis-graphic-tee.jpg",
+        "price": 24.99,
+        "product_id": "LVGT-004",
+        "type": "T-Shirt",
+        "short_details": "The Levi's Graphic Tee features a bold logo print on soft, comfortable cotton for everyday wear.",
+        "brand_name": "Levi's",
+        "rating": 4.6
+    },
+    {
+        "name": "Levi's 505 Regular Fit Jeans",
+        "image": "https://example.com/images/levis-505-regular-fit-jeans.jpg",
+        "price": 59.99,
+        "product_id": "LV505-005",
+        "type": "Jeans",
+        "short_details": "The Levi's 505 Regular Fit Jeans offer a comfortable fit with a straight leg and classic style.",
+        "brand_name": "Levi's",
+        "rating": 4.7
+    },
+    {
+        "name": "Levi's Sherpa Trucker Jacket",
+        "image": "https://example.com/images/levis-sherpa-trucker-jacket.jpg",
+        "price": 119.99,
+        "product_id": "LVSTJ-006",
+        "type": "Jacket",
+        "short_details": "The Levi's Sherpa Trucker Jacket features a warm sherpa lining and classic trucker design for cold weather.",
+        "brand_name": "Levi's",
+        "rating": 4.8
+    },
+    {
+        "name": "Nike Air Max 90",
+        "image": "https://example.com/images/nike-air-max-90.jpg",
+        "price": 120.00,
+        "product_id": "AM90-001",
+        "type": "Sneaker",
+        "short_details": "The Nike Air Max 90 stays true to its roots with the iconic Waffle sole, stitched overlays, and classic TPU accents.",
+        "brand_name": "Nike",
+        "rating": 4.7
+    },
+    {
+        "name": "Nike Air Force 1",
+        "image": "https://example.com/images/nike-air-force-1.jpg",
+        "price": 110.00,
+        "product_id": "AF1-002",
+        "type": "Sneaker",
+        "short_details": "The Nike Air Force 1 features crisp leather edges for a cleaner, more streamlined silhouette and fine detailing.",
+        "brand_name": "Nike",
+        "rating": 4.8
+    },
+    {
+        "name": "Nike React Infinity Run",
+        "image": "https://example.com/images/nike-react-infinity-run.jpg",
+        "price": 160.00,
+        "product_id": "RIR-003",
+        "type": "Running Shoe",
+        "short_details": "The Nike React Infinity Run Flyknit is designed to help reduce injury and keep you on the run.",
+        "brand_name": "Nike",
+        "rating": 4.6
+    },
+    {
+        "name": "Nike ZoomX Vaporfly NEXT%",
+        "image": "https://example.com/images/nike-zoomx-vaporfly-next.jpg",
+        "price": 250.00,
+        "product_id": "ZVN-004",
+        "type": "Running Shoe",
+        "short_details": "The Nike ZoomX Vaporfly NEXT% is built for record-breaking speed and long-distance performance.",
+        "brand_name": "Nike",
+        "rating": 4.9
+    },
+    {
+        "name": "Nike Blazer Mid '77",
+        "image": "https://example.com/images/nike-blazer-mid-77.jpg",
+        "price": 100.00,
+        "product_id": "BM77-005",
+        "type": "Sneaker",
+        "short_details": "The Nike Blazer Mid '77 features a vintage look and durable construction for everyday wear.",
+        "brand_name": "Nike",
+        "rating": 4.5
+    },
+    {
+        "name": "Nike Air Zoom Pegasus 38",
+        "image": "https://example.com/images/nike-air-zoom-pegasus-38.jpg",
+        "price": 120.00,
+        "product_id": "P38-006",
+        "type": "Running Shoe",
+        "short_details": "The Nike Air Zoom Pegasus 38 continues to put a spring in your step, using the same responsive foam as its predecessor.",
+        "brand_name": "Nike",
+        "rating": 4.7
+    },
+    {
+        "name": "Zara Double-Breasted Blazer",
+        "image": "https://example.com/images/zara-double-breasted-blazer.jpg",
+        "price": 129.00,
+        "product_id": "ZDB-001",
+        "type": "Blazer",
+        "short_details": "The Zara Double-Breasted Blazer features a tailored fit with a classic double-breasted design.",
+        "brand_name": "Zara",
+        "rating": 4.7
+    },
+    {
+        "name": "Zara High-Waist Trousers",
+        "image": "https://example.com/images/zara-high-waist-trousers.jpg",
+        "price": 49.90,
+        "product_id": "ZHT-002",
+        "type": "Trousers",
+        "short_details": "The Zara High-Waist Trousers offer a flattering fit with a sleek, modern look.",
+        "brand_name": "Zara",
+        "rating": 4.6
+    },
+    {
+        "name": "Zara Printed Midi Dress",
+        "image": "https://example.com/images/zara-printed-midi-dress.jpg",
+        "price": 69.90,
+        "product_id": "ZPMD-003",
+        "type": "Dress",
+        "short_details": "The Zara Printed Midi Dress features a vibrant print with a flowing, midi-length silhouette.",
+        "brand_name": "Zara",
+        "rating": 4.8
+    }
+]

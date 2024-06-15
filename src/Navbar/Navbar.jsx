@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="bg-transparent absolute flex items-center w-full">
             <Link to='/'>
                 <div className="flex justify-center items-center w-52">
-                    <img className="max-w-full" src="/logo2.png" alt="" />
+                    <img className="md:max-w-[100px] max-w-[60px]" src="/logo2.png" alt="" />
                     <h1 className="text-2xl font-bold text-white">Nail</h1>
                 </div>
             </Link>
@@ -20,6 +20,9 @@ const Navbar = () => {
                 {
                     navList.map(list => <NavLinks key={list.id} list={list}></NavLinks>)
                 }
+            </div>
+            <div className="flex text-white font-bold w-[470px] justify-end">
+                <button>Login</button>
             </div>
         </div>
     );

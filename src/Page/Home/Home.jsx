@@ -1,14 +1,13 @@
 import Navbar from "../../Navbar/Navbar";
-
+import "./home.css";
 
 const Home = () => {
     return (
         <div>
             <div className="relative">
-                <div></div>
-                <Navbar></Navbar>
-                <div>
-                    <img className="max-h-[500px] w-full" src="/main-bn.png" alt="" />
+                <div className="gradient-overlay">
+                    <Navbar></Navbar>
+                    <img className=" w-full" src="/main-bn.png" alt="" />
                 </div>
             </div>
         </div>
