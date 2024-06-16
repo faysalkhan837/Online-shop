@@ -1,33 +1,32 @@
 [
-    {
-      "brandName": "Adidas",
-      "bgColor": "#A3AAAE",
-      "photoUrl": "https://i.ibb.co/g6CjXV2/adidaslogo.png"
-    },
-    {
-      "brandName": "Gucci",
-      "bgColor": "#4285F4",
-      "photoUrl": "https://i.ibb.co/Sfpss4Y/guchilogo.png"
-    },
-    {
-      "brandName": "H&M",
-      "bgColor": "#FF9900",
-      "photoUrl": "https://i.ibb.co/yfPyD6Z/hnmlogo.png"
-    },
-    {
-      "brandName": "Levi's",
-      "bgColor": "#1877F2",
-      "photoUrl": "https://i.ibb.co/PWfSRpf/levicelogo.png"
-    },
-    {
-      "brandName": "Nike",
-      "bgColor": "#F3F3F3",
-      "photoUrl": "https://i.ibb.co/pJ1dLVK/nikelogo.png"
-    },
-    {
-      "brandName": "Zara",
-      "bgColor": "#CC0000",
-      "photoUrl": "https://i.ibb.co/2gfq8NR/zaralogo.png"
-    }
-  ]
-  
+  {
+    "brandName": "Zara",
+    "bgColor": "#CC0000",
+    "photoUrl": "https://i.ibb.co/2gfq8NR/zaralogo.png"
+  },
+  {
+    "brandName": "Adidas",
+    "bgColor": "#A3AAAE",
+    "photoUrl": "https://i.ibb.co/GFMHrRV/Adidas.png"
+  },
+  {
+    "brandName": "Gucci",
+    "bgColor": "#4285F4",
+    "photoUrl": "https://i.ibb.co/8Y3qWJq/Guchi.png"
+  },
+  {
+    "brandName": "H&M",
+    "bgColor": "#FF9900",
+    "photoUrl": "https://i.ibb.co/y40RVPD/Hnm.png"
+  },
+  {
+    "brandName": "Levi's",
+    "bgColor": "#1877F2",
+    "photoUrl": "https://i.ibb.co/P58z1qj/Levis.png"
+  },
+  {
+    "brandName": "Nike",
+    "bgColor": "#F3F3F3",
+    "photoUrl": "https://i.ibb.co/b5xTDbk/nike.png"
+  }
+]
