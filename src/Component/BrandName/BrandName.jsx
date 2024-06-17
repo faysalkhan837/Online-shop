@@ -12,5 +12,5 @@ const BrandName = ({ brand }) => {
             </div>
         </div>)
 };
-
+  
 export default BrandName;

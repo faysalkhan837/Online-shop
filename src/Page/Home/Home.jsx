@@ -1,5 +1,5 @@
 // import { useLoaderData } from "react-router-dom";
-import Navbar from "../../Navbar/Navbar";
+
 import "./home.css";
 import BrandName from "../../Component/BrandName/BrandName";
 import { useEffect, useState } from "react";
@@ -16,9 +16,8 @@ const Home = () => {
 
     return (
         <div>
-            <div className="relative">
-                <div className="gradient-overlay">
-                    <Navbar></Navbar>
+            <div className="">
+                <div className="gradient-overlay">                  
                     <img className=" w-full" src="/main-bn.png" alt="" />
                 </div>
                 <div className="">

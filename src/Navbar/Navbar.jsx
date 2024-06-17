@@ -5,25 +5,27 @@ import NavLinks from "../Component/NavLinks/NavLinks";
 const Navbar = () => {
     const navList = [
         { id: 1, name: "Home", patch: "/" },
-        { id: 1, name: "Sign Up", patch: "/signUp" },
-        { id: 1, name: "About", patch: "/about" }
+        { id: 2, name: "Sign Up", patch: "/signUp" },
+        { id: 3, name: "About", patch: "/about" }
     ]
     return (
-        <div className="bg-transparent absolute flex items-center w-full">
-            <Link to='/'>
-                <div className="flex justify-center items-center w-52">
-                    <img className="md:max-w-[100px] max-w-[60px]" src="/logo2.png" alt="" />
-                    <h1 className="text-2xl font-bold text-white">Nail</h1>
+        <div className="relative">
+            <nav className=" absolute z-10 flex justify-between items-center w-full bg-gradient-to-b from-[#942020] from-30% to-[transparent]">
+                <Link to='/'>
+                    <div className="flex justify-center items-center">
+                        <img className="md:max-w-[100px] max-w-[60px]" src="/logo2.png" alt="" />
+                        <h1 className="text-2xl font-bold text-white">Nail</h1>
+                    </div>
+                </Link>
+                <div className="flex justify-end text-white font-bold gap-4">
+                    {
+                        navList.map(list => <NavLinks key={list.id} list={list}></NavLinks>)
+                    }
                 </div>
-            </Link>
-            <div className="flex justify-end text-white font-bold gap-4 w-[580px]">
-                {
-                    navList.map(list => <NavLinks key={list.id} list={list}></NavLinks>)
-                }
-            </div>
-            <div className="flex text-white font-bold w-[470px] justify-end">
-                <button>Login</button>
-            </div>
+                <div className="flex justify-center text-white font-bold  mr-4">
+                    <button>Login</button>
+                </div>
+            </nav>
         </div>
     );
 };
