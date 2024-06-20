@@ -7,7 +7,7 @@ const BrandName = ({ brand }) => {
             <img className="" src={brand.photoUrl} />
             <div className="p-3 mb-5">
                 <Link to={`/allProducts/${brand.brandName}`}>
-                    <button className="py-2 shadow-lg shadow-black rounded-2xl w-full bg-[#e7ab0b]">Products</button>
+                    <button className="py-2 shadow-lg hover:bg-slate-200 shadow-black rounded-2xl w-full bg-[#e7ab0b]">Products</button>
                 </Link>
             </div>
         </div>)

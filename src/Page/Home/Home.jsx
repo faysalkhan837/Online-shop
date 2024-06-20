@@ -2,17 +2,12 @@
 
 import "./home.css";
 import BrandName from "../../Component/BrandName/BrandName";
-import { useEffect, useState } from "react";
 import Marquee from "react-fast-marquee";
+import { useLoaderData } from "react-router-dom";
 
 const Home = () => {
-    const [brandData, setBrandData] = useState([]);
-    useEffect(() => {
-        fetch('http://localhost:5000/brands')
-            .then(res => res.json())
-            .then(data => setBrandData(data))
-    }, [])
-    console.log(brandData.length)
+    
+    const brandData = useLoaderData();
 
     return (
         <div>
