@@ -5,6 +5,7 @@ import AllProdutcs from "../Page/AllProducts/AllProducts";
 import MyCart from "../Page/MyCart/MyCart";
 import Details from "../Page/Details/Details";
 import AddProduct from "../Page/AddProduct/AddProduct";
+import UpdateProduct from "../Page/UpdataeProduct/UpdateProduct";
 
 
 
@@ -36,6 +37,11 @@ export const router = createBrowserRouter([
             {
                 path: "/addProduct",
                 element:<AddProduct></AddProduct>
+            },
+            {
+                path: "/updateProduct/:id",
+                element:<UpdateProduct></UpdateProduct>,
+                loader:({params}) => fetch(`http://localhost:5000/products/${params.id}`)
             }
         ]
     }

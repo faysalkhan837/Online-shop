@@ -31,7 +31,7 @@ const ProductCard = ({ product }) => {
                                     Details
                                 </button>
                             </Link>
-                            <Link to='/upDate'>
+                            <Link to={`/updateProduct/${_id}`}>
                                 <button className="px-2 py-1 w-full uppercase transition duration-200 ease-in border-2 border-gray-900 rounded-xl hover:bg-slate-300  focus:outline-none">
                                     Updatae
                                 </button>

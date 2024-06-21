@@ -5,7 +5,7 @@ import ProductCard from "../../Component/ProductCard/ProductCard";
 
 const AllProdutcs = () => {
     const loadedProduct = useLoaderData();
-    console.log(loadedProduct.length)
+    // console.log(loadedProduct.length)
     return (
         <div>         
             <Carousel autoPlay={true} infiniteLoop={true} interval={3000} showStatus={false}>
