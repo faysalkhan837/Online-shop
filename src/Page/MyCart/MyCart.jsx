@@ -2,8 +2,10 @@ import { useEffect, useState } from "react";
 import Swal from "sweetalert2";
 
 
+
 const MyCart = () => {
   const [cartData, setCartData] = useState([]);
+  // const {loading} = useContext(AuthContext);
 
   useEffect(() => {
     fetch('http://localhost:5000/cart')
@@ -32,6 +34,7 @@ const MyCart = () => {
 
   return (
     <div>
+      
       <div className="h-16">
 
       </div>
@@ -49,7 +52,7 @@ const MyCart = () => {
           <tbody>
             {/* row 1 */}
             {
-              cartData.map(cart => <tr key={cart._id}>
+              cartData?.map(cart => <tr key={cart._id}>
                 <td>
                   <div className="flex items-center gap-3">
                     <div className="avatar">

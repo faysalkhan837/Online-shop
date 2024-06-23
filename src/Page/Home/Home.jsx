@@ -4,15 +4,29 @@ import "./home.css";
 import BrandName from "../../Component/BrandName/BrandName";
 import Marquee from "react-fast-marquee";
 import { useLoaderData } from "react-router-dom";
+import { useEffect, useState } from "react";
+
+
 
 const Home = () => {
-    
+    const [topRating, setTopRationg] = useState([]);
     const brandData = useLoaderData();
+
+
+    useEffect(() => {
+        const handletoprating = () => {
+            fetch('http://localhost:5000/toprated?rating=4.8')
+                .then(res => res.json())
+                .then(data => setTopRationg(data))
+        }
+        handletoprating();
+    }, [])
+
 
     return (
         <div>
             <div className="">
-                <div className="gradient-overlay">                  
+                <div className="gradient-overlay">
                     <img className=" w-full" src="/main-bn.png" alt="" />
                 </div>
                 <div className="">
@@ -25,10 +39,16 @@ const Home = () => {
                         <img className="md:h-[100px] h-[50px]" src="/zaralogo.png" alt="" />
                     </Marquee>
                 </div>
-                <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-y-8">
+                <div className="flex justify-center my-4">
+                    <h1 className="font-extrabold text-4xl pb-4 header">Our Brands</h1>
+                </div>
+                <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-y-8 body font-bold">
                     {
                         brandData.map(brand => <BrandName key={brand._id} brand={brand}></BrandName>)
                     }
+                </div>
+                <div>
+                   
                 </div>
             </div>
         </div>

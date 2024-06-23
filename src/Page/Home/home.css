@@ -19,4 +19,15 @@
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)); /* Example gradient */
     pointer-events: none; /* Allow clicks to pass through */
   }
+
+  .header{
+    font-family: "Playwrite AU TAS", cursive;
+  }
+  
+  .body{
+    font-family: "Playwrite RO", cursive;
+  }
+  .nav{
+    font-family: "Poppins", sans-serif;
+  }
   
