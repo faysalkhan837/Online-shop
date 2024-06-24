@@ -31,7 +31,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/myCart",
-                element: <MyCart></MyCart>
+                element: <PrivateRout><MyCart></MyCart></PrivateRout>
             },
             {
                 path: "/details/:id",

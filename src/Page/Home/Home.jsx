@@ -95,7 +95,7 @@ const Home = () => {
                     }
                 </div>
                 <div className="flex justify-center my-4">
-                    <div className="mt-5 bg-gradient-to-b from-[#942020] from-40% to-[transparent] rounded-t-lg">
+                    <div className=" mt-5 bg-gradient-to-b from-[#942020] from-40% to-[transparent] rounded-t-lg">
                         <h1 className="font-extrabold text-white text-4xl p-4 header">Top selling Items</h1>
                     </div>
                 </div>

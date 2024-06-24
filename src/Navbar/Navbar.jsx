@@ -20,15 +20,15 @@ const Navbar = () => {
         { id: 5, name: "My Cart", patch: "/myCart" }
     ]
     return (
-        <div className="relative" style={{fontFamily:"Poppins"}}>
+        <div className="relative text-yellow-300" style={{fontFamily:"Poppins"}}>
             <nav className=" absolute z-10 flex flex-wrap justify-between items-center w-full bg-gradient-to-b from-[#942020] from-30% to-[transparent]">
                 <Link to='/'>
                     <div className="flex justify-center items-center">
                         <img className="md:max-w-[100px] max-w-[60px]" src="/logo2.png" alt="" />
-                        <h1 className="text-2xl font-bold text-white">Nail</h1>
+                        <h1 className="text-2xl font-bold text-white ">Nail</h1>
                     </div>
                 </Link>
-                <div className="flex justify-end text-white font-bold gap-4 mr-10">
+                <div className="flex justify-end font-bold gap-4 mr-10">
                     {
                         navList.map(list => <NavLinks key={list.id} list={list}></NavLinks>)
                     }
