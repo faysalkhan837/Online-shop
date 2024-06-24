@@ -1,11 +1,15 @@
-// import { useLoaderData } from "react-router-dom";
+
 
 import "./home.css";
 import BrandName from "../../Component/BrandName/BrandName";
 import Marquee from "react-fast-marquee";
 import { useLoaderData } from "react-router-dom";
 import { useEffect, useState } from "react";
+import TopRated from "../../Component/TopRated/TopRated";
 
+
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
 
 
 const Home = () => {
@@ -21,6 +25,47 @@ const Home = () => {
         }
         handletoprating();
     }, [])
+
+    const settings = {
+        dots: false,
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        speed: 2000,
+        autoplaySpeed: 2000,
+        cssEase: "linear",
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 320,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false
+                }
+            },
+        ]
+
+    };
 
 
     return (
@@ -40,15 +85,28 @@ const Home = () => {
                     </Marquee>
                 </div>
                 <div className="flex justify-center my-4">
-                    <h1 className="font-extrabold text-4xl pb-4 header">Our Brands</h1>
+                    <div className="mb-4 bg-gradient-to-b from-[#942020] from-40% to-[transparent] rounded-t-lg">
+                        <h1 className="font-extrabold text-white text-4xl p-4 header">Our Brands</h1>
+                    </div>
                 </div>
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-y-8 body font-bold">
                     {
                         brandData.map(brand => <BrandName key={brand._id} brand={brand}></BrandName>)
                     }
                 </div>
-                <div>
-                   
+                <div className="flex justify-center my-4">
+                    <div className="mt-5 bg-gradient-to-b from-[#942020] from-40% to-[transparent] rounded-t-lg">
+                        <h1 className="font-extrabold text-white text-4xl p-4 header">Top selling Items</h1>
+                    </div>
+                </div>
+                <div className="slider-container">
+                    <Slider {...settings}>
+
+                        {
+                            topRating.map(rating => <TopRated key={rating._id} rating={rating}></TopRated>)
+                        }
+
+                    </Slider>
                 </div>
             </div>
         </div>
