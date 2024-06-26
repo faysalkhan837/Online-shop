@@ -78,7 +78,7 @@ const AddProduct = () => {
                     </div>
                 </div>
                 <div className="flex justify-center p-2">
-                    <input className="btn btn-primary lg:max-w-2xl md:max-w-lg w-full text-lg font-bold my-7 text-white" type="submit" value='Submit' />
+                    <input className="btn btn-primary lg:max-w-2xl md:max-w-lg w-full text-lg font-bold my-7 text-white" type="submit" value='Add Product' />
                 </div>
             </form>
         </div>

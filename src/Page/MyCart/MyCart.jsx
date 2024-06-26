@@ -17,8 +17,9 @@ const MyCart = () => {
     fetch(`http://localhost:5000/cart/${id}`, {
       method: "DELETE"
     })
-      .then(res => res.json())
-      .then(data => {
+    .then(res => res.json())
+    .then(data => {
+        console.log(data)
         if (data.deletedCount > 0) {
           Swal.fire({
             title: "Sucessfully deleted",
@@ -35,7 +36,7 @@ const MyCart = () => {
   return (
     <div>
       
-      <div className="h-16">
+      <div className="h-24">
 
       </div>
       <div className="overflow-x-auto">

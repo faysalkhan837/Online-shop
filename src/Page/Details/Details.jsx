@@ -5,8 +5,8 @@ import Swal from "sweetalert2";
 
 const Details = () => {
     const product = useLoaderData();
-    const {image, name, price, product_id, short_details,_id} = product;
-    const cartData = { name, image, price, _id }
+    const {image, name, price, product_id, short_details} = product;
+    const cartData = { name, image, price }
 
     const handleAddToCart = (cartData) => {
         fetch('http://localhost:5000/cart', {
