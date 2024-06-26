@@ -66,7 +66,7 @@ const MyCart = () => {
                   </div>
                 </td>
                 <td>
-                  <span className="badge badge-ghost badge-sm">$ {cart.price}</span>
+                  <span className="bg-slate-200 rounded-md">$ {cart.price}</span>
                 </td>
                 {/* <td>Buy Now</td> */}
                 <th>

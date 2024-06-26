@@ -58,6 +58,7 @@ const SignUp = () => {
                 <div className="col-auto text-center md:col-span-6 lg:text-left">
                     <img src="/signup.png" alt="" />
                 </div>
+                
                 <div className="col-auto md:col-span-5 w-full">
                     <div className="mt-2 bg-slate-100 px-5 py-2 rounded-md">
                         <div className="">

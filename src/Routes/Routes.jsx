@@ -9,6 +9,7 @@ import UpdateProduct from "../Page/UpdataeProduct/UpdateProduct";
 import SignUp from "../Page/SignUp/SignUp";
 import Login from "../Page/Login/Login";
 import PrivateRout from "../PrivateRout/privateRout";
+import ContuctUs from "../Page/ContuctUs/ContuctUs";
 
 
 
@@ -54,6 +55,10 @@ export const router = createBrowserRouter([
             {
                 path: "/login",
                 element:<Login></Login>
+            },
+            {
+                path: "/contuctUs",
+                element: <ContuctUs></ContuctUs>
             }
         ]
     }
