@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Swal from "sweetalert2";
 
 
@@ -7,18 +7,16 @@ const MyCart = () => {
   const [cartData, setCartData] = useState([]);
   // const {loading} = useContext(AuthContext);
 
-  useEffect(() => {
-    fetch('http://localhost:5000/cart')
-      .then(res => res.json())
-      .then(data => setCartData(data))
-  }, [])
+  fetch('http://localhost:5000/cart')
+  .then(res => res.json())
+  .then(data => setCartData(data))
 
   const handleDelet = id => {
     fetch(`http://localhost:5000/cart/${id}`, {
       method: "DELETE"
     })
-    .then(res => res.json())
-    .then(data => {
+      .then(res => res.json())
+      .then(data => {
         console.log(data)
         if (data.deletedCount > 0) {
           Swal.fire({
@@ -35,7 +33,7 @@ const MyCart = () => {
 
   return (
     <div>
-      
+
       <div className="h-24">
 
       </div>

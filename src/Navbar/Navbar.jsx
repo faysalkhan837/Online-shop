@@ -42,7 +42,7 @@ const Navbar = () => {
                             
                         }
                     </div>
-                        <ul className={`md:flex font-bold max-sm:bg-[#942020] gap-4 rounded-b-md absolute md:static p-2 duration-1000 max-sm:right-0 ${open? "-top-60" : "top-8"}`}>
+                        <ul className={`md:flex font-bold max-sm:bg-[#942020] gap-2 rounded-b-md absolute md:static p-2 duration-1000 max-sm:right-0 ${open? "-top-60" : "top-8"}`}>
                             {
                                 navList.map(list => <NavLinks key={list.id} list={list}></NavLinks>)
                             }
@@ -52,7 +52,7 @@ const Navbar = () => {
             </div>
 
                 {/* user and logIn logOut */}
-                <div className="text-slate-700 w-full flex justify-start font-bold gap-4 max-sm:text-sm md:justify-end md:pr-4 px-2 lg:w-1/2">
+                <div className="text-slate-100 w-full flex justify-start font-bold gap-4 max-sm:text-sm md:justify-end md:pr-4 px-2 lg:w-1/2">
                     <div>
                         <h1 className="">{user?.displayName}</h1>
                     </div>

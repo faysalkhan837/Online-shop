@@ -16,7 +16,6 @@ const Home = () => {
     const [topRating, setTopRationg] = useState([]);
     const brandData = useLoaderData();
 
-
     useEffect(() => {
         const handletoprating = () => {
             fetch('http://localhost:5000/toprated?rating=4.8')
@@ -35,6 +34,7 @@ const Home = () => {
         speed: 2000,
         autoplaySpeed: 2000,
         cssEase: "linear",
+        arrows:false,
         responsive: [
             {
                 breakpoint: 1024,

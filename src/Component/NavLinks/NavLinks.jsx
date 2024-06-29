@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const NavLinks = ({ list }) => {
     return (
-        <div className="max-sm:hover:bg-slate-500 p-2 rounded-md">
+        <div className="max-sm:hover:bg-slate-500 px-2 rounded-md">
             <Link to={list.patch}><li className="w-full">{list.name}</li></Link>
         </div>
     );

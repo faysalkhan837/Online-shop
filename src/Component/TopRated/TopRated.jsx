@@ -1,7 +1,7 @@
 const TopRated = ({ rating }) => {
   const { name, image, price } = rating;
   return (
-    <div className="m-2 md:max-w-[290px] overflow-hidden bg-white rounded-lg shadow-black shadow-lg dark:bg-gray-800">
+    <div className="m-6 md:max-w-[290px] overflow-hidden bg-white rounded-lg shadow-black shadow-lg dark:bg-gray-800">
       <div className="px-4 py-2 h-16">
         <h1 className="text-xl font-bold text-gray-800 uppercase dark:text-white">
           {name}
@@ -9,7 +9,7 @@ const TopRated = ({ rating }) => {
       </div>
 
       <img
-        className="object-cover w-full mt-2"
+        className="object-cover w-full h-48 mt-2"
         src={image}
         alt="NIKE AIR"
       />
